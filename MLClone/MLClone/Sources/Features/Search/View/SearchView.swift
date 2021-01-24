@@ -58,7 +58,7 @@ extension SearchView: ViewCode {
 
 extension SearchView: UISearchBarDelegate {
     func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
-        delegate?.didTapSearch(text: searchBar.text ?? "")
         searchBar.resignFirstResponder()
+        delegate?.didTapSearch(text: searchBar.text ?? "")
     }
 }

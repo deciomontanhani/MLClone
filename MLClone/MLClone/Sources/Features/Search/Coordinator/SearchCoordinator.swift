@@ -26,7 +26,7 @@ final class SearchCoordinator: SearchCoordinatorContract {
     }
 
     func showSearchList(text: String) {
-//        let coordinator = SearchListCoordinator(navigation: navigation)
-//        coordinator.start()
+        let coordinator = SearchListCoordinator(navigation: navigation)
+        coordinator.start(searchText: text)
     }
 }

@@ -20,6 +20,11 @@
 		2003E06025BDF32B007A76A4 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2003E05F25BDF32B007A76A4 /* SearchView.swift */; };
 		2003E06C25BDFAD0007A76A4 /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2003E06B25BDFAD0007A76A4 /* SearchViewModel.swift */; };
 		2003E07125BE0584007A76A4 /* SearchCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2003E07025BE0584007A76A4 /* SearchCoordinator.swift */; };
+		2003E09B25BE0E48007A76A4 /* SearchListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2003E09A25BE0E48007A76A4 /* SearchListViewController.swift */; };
+		2003E0A025BE0E83007A76A4 /* SearchListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2003E09F25BE0E83007A76A4 /* SearchListView.swift */; };
+		2003E0A525BE113E007A76A4 /* SearchListCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2003E0A425BE113E007A76A4 /* SearchListCoordinator.swift */; };
+		2003E0AA25BE11E4007A76A4 /* SearchListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2003E0A925BE11E4007A76A4 /* SearchListViewModel.swift */; };
+		2003E0B025BE17BC007A76A4 /* SearchListRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2003E0AF25BE17BC007A76A4 /* SearchListRepository.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +64,11 @@
 		2003E05F25BDF32B007A76A4 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		2003E06B25BDFAD0007A76A4 /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
 		2003E07025BE0584007A76A4 /* SearchCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCoordinator.swift; sourceTree = "<group>"; };
+		2003E09A25BE0E48007A76A4 /* SearchListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchListViewController.swift; sourceTree = "<group>"; };
+		2003E09F25BE0E83007A76A4 /* SearchListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchListView.swift; sourceTree = "<group>"; };
+		2003E0A425BE113E007A76A4 /* SearchListCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchListCoordinator.swift; sourceTree = "<group>"; };
+		2003E0A925BE11E4007A76A4 /* SearchListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchListViewModel.swift; sourceTree = "<group>"; };
+		2003E0AF25BE17BC007A76A4 /* SearchListRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchListRepository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -227,8 +237,53 @@
 		2003E07525BE0A35007A76A4 /* SearchList */ = {
 			isa = PBXGroup;
 			children = (
+				2003E09125BE0D61007A76A4 /* Controller */,
+				2003E09025BE0D5B007A76A4 /* Coordinator */,
+				2003E0AE25BE17A4007A76A4 /* Repository */,
+				2003E09225BE0D67007A76A4 /* View */,
+				2003E09325BE0D6B007A76A4 /* ViewModel */,
 			);
 			path = SearchList;
+			sourceTree = "<group>";
+		};
+		2003E09025BE0D5B007A76A4 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				2003E0A425BE113E007A76A4 /* SearchListCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		2003E09125BE0D61007A76A4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2003E09A25BE0E48007A76A4 /* SearchListViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2003E09225BE0D67007A76A4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2003E09F25BE0E83007A76A4 /* SearchListView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2003E09325BE0D6B007A76A4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2003E0A925BE11E4007A76A4 /* SearchListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2003E0AE25BE17A4007A76A4 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				2003E0AF25BE17BC007A76A4 /* SearchListRepository.swift */,
+			);
+			path = Repository;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -360,11 +415,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2003E0A525BE113E007A76A4 /* SearchListCoordinator.swift in Sources */,
 				2003E05B25BDF30A007A76A4 /* SearchViewController.swift in Sources */,
+				2003E0AA25BE11E4007A76A4 /* SearchListViewModel.swift in Sources */,
 				2003E05225BDF2B5007A76A4 /* AppCoordinator.swift in Sources */,
+				2003E09B25BE0E48007A76A4 /* SearchListViewController.swift in Sources */,
+				2003E0B025BE17BC007A76A4 /* SearchListRepository.swift in Sources */,
 				2003E06C25BDFAD0007A76A4 /* SearchViewModel.swift in Sources */,
 				2003E04C25BDF225007A76A4 /* Constraints.swift in Sources */,
 				2003E07125BE0584007A76A4 /* SearchCoordinator.swift in Sources */,
+				2003E0A025BE0E83007A76A4 /* SearchListView.swift in Sources */,
 				2003E06025BDF32B007A76A4 /* SearchView.swift in Sources */,
 				2003E04D25BDF225007A76A4 /* ViewCode.swift in Sources */,
 				2003E00325BDF04A007A76A4 /* AppDelegate.swift in Sources */,
