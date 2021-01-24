@@ -9,12 +9,15 @@
 /* Begin PBXBuildFile section */
 		2003E00325BDF04A007A76A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2003E00225BDF04A007A76A4 /* AppDelegate.swift */; };
 		2003E00525BDF04A007A76A4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2003E00425BDF04A007A76A4 /* SceneDelegate.swift */; };
-		2003E00725BDF04A007A76A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2003E00625BDF04A007A76A4 /* ViewController.swift */; };
-		2003E00A25BDF04A007A76A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2003E00825BDF04A007A76A4 /* Main.storyboard */; };
 		2003E00C25BDF04C007A76A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2003E00B25BDF04C007A76A4 /* Assets.xcassets */; };
 		2003E00F25BDF04C007A76A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2003E00D25BDF04C007A76A4 /* LaunchScreen.storyboard */; };
 		2003E01A25BDF04C007A76A4 /* MLCloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2003E01925BDF04C007A76A4 /* MLCloneTests.swift */; };
 		2003E02525BDF04C007A76A4 /* MLCloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2003E02425BDF04C007A76A4 /* MLCloneUITests.swift */; };
+		2003E04C25BDF225007A76A4 /* Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2003E04A25BDF225007A76A4 /* Constraints.swift */; };
+		2003E04D25BDF225007A76A4 /* ViewCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2003E04B25BDF225007A76A4 /* ViewCode.swift */; };
+		2003E05225BDF2B5007A76A4 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2003E05125BDF2B5007A76A4 /* AppCoordinator.swift */; };
+		2003E05B25BDF30A007A76A4 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2003E05A25BDF30A007A76A4 /* SearchViewController.swift */; };
+		2003E06025BDF32B007A76A4 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2003E05F25BDF32B007A76A4 /* SearchView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +41,6 @@
 		2003DFFF25BDF04A007A76A4 /* MLClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MLClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2003E00225BDF04A007A76A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2003E00425BDF04A007A76A4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2003E00625BDF04A007A76A4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2003E00925BDF04A007A76A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2003E00B25BDF04C007A76A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2003E00E25BDF04C007A76A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2003E01025BDF04C007A76A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +50,11 @@
 		2003E02025BDF04C007A76A4 /* MLCloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MLCloneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2003E02425BDF04C007A76A4 /* MLCloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLCloneUITests.swift; sourceTree = "<group>"; };
 		2003E02625BDF04C007A76A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2003E04A25BDF225007A76A4 /* Constraints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constraints.swift; sourceTree = "<group>"; };
+		2003E04B25BDF225007A76A4 /* ViewCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewCode.swift; sourceTree = "<group>"; };
+		2003E05125BDF2B5007A76A4 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		2003E05A25BDF30A007A76A4 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		2003E05F25BDF32B007A76A4 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +105,7 @@
 		2003E00125BDF04A007A76A4 /* MLClone */ = {
 			isa = PBXGroup;
 			children = (
-				2003E00225BDF04A007A76A4 /* AppDelegate.swift */,
-				2003E00425BDF04A007A76A4 /* SceneDelegate.swift */,
-				2003E00625BDF04A007A76A4 /* ViewController.swift */,
-				2003E00825BDF04A007A76A4 /* Main.storyboard */,
+				2003E04425BDF1B7007A76A4 /* Sources */,
 				2003E00B25BDF04C007A76A4 /* Assets.xcassets */,
 				2003E00D25BDF04C007A76A4 /* LaunchScreen.storyboard */,
 				2003E01025BDF04C007A76A4 /* Info.plist */,
@@ -126,6 +129,76 @@
 				2003E02625BDF04C007A76A4 /* Info.plist */,
 			);
 			path = MLCloneUITests;
+			sourceTree = "<group>";
+		};
+		2003E04425BDF1B7007A76A4 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				2003E04725BDF203007A76A4 /* CommonsUI */,
+				2003E04625BDF1F3007A76A4 /* Features */,
+				2003E04525BDF1E1007A76A4 /* AppSupport */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		2003E04525BDF1E1007A76A4 /* AppSupport */ = {
+			isa = PBXGroup;
+			children = (
+				2003E00425BDF04A007A76A4 /* SceneDelegate.swift */,
+				2003E00225BDF04A007A76A4 /* AppDelegate.swift */,
+				2003E05125BDF2B5007A76A4 /* AppCoordinator.swift */,
+			);
+			path = AppSupport;
+			sourceTree = "<group>";
+		};
+		2003E04625BDF1F3007A76A4 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				2003E05925BDF2E9007A76A4 /* Search */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		2003E04725BDF203007A76A4 /* CommonsUI */ = {
+			isa = PBXGroup;
+			children = (
+				2003E04925BDF225007A76A4 /* ViewCode */,
+			);
+			path = CommonsUI;
+			sourceTree = "<group>";
+		};
+		2003E04925BDF225007A76A4 /* ViewCode */ = {
+			isa = PBXGroup;
+			children = (
+				2003E04A25BDF225007A76A4 /* Constraints.swift */,
+				2003E04B25BDF225007A76A4 /* ViewCode.swift */,
+			);
+			path = ViewCode;
+			sourceTree = "<group>";
+		};
+		2003E05925BDF2E9007A76A4 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				2003E06525BDF73B007A76A4 /* Controller */,
+				2003E06425BDF736007A76A4 /* View */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		2003E06425BDF736007A76A4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2003E05F25BDF32B007A76A4 /* SearchView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2003E06525BDF73B007A76A4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2003E05A25BDF30A007A76A4 /* SearchViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +306,6 @@
 			files = (
 				2003E00F25BDF04C007A76A4 /* LaunchScreen.storyboard in Resources */,
 				2003E00C25BDF04C007A76A4 /* Assets.xcassets in Resources */,
-				2003E00A25BDF04A007A76A4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +330,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2003E00725BDF04A007A76A4 /* ViewController.swift in Sources */,
+				2003E05B25BDF30A007A76A4 /* SearchViewController.swift in Sources */,
+				2003E05225BDF2B5007A76A4 /* AppCoordinator.swift in Sources */,
+				2003E04C25BDF225007A76A4 /* Constraints.swift in Sources */,
+				2003E06025BDF32B007A76A4 /* SearchView.swift in Sources */,
+				2003E04D25BDF225007A76A4 /* ViewCode.swift in Sources */,
 				2003E00325BDF04A007A76A4 /* AppDelegate.swift in Sources */,
 				2003E00525BDF04A007A76A4 /* SceneDelegate.swift in Sources */,
 			);
@@ -296,14 +372,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		2003E00825BDF04A007A76A4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2003E00925BDF04A007A76A4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2003E00D25BDF04C007A76A4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -366,7 +434,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -421,7 +489,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
