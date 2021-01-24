@@ -17,8 +17,7 @@ final class AppCoordinator {
     }
 
     func start() {
-        let controller = SearchViewController()
-        navigation.viewControllers = [controller]
+        SearchCoordinator(navigation: navigation).start()
 
         window.rootViewController = navigation
         window.backgroundColor = .white
