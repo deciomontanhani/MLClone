@@ -16,17 +16,25 @@ public extension NetworkSession {
     var scheme: String { return "https" }
 
     var headers: [String: String]? {
-        return nil
+        return ["Content-Type": "application/json"]
     }
     var queryItems: [URLQueryItem] {
         return []
+    }
+
+    var method: NetworkMethod {
+        return .get
+    }
+
+    var baseUrl: String {
+        return "api.mercadolibre.com"
     }
 
     var body: [String: Any]? {
         return nil
     }
     var timeout: TimeInterval {
-        return 10.0
+        return 15.0
     }
     var cachePolicy: URLRequest.CachePolicy {
         return .reloadIgnoringLocalAndRemoteCacheData
@@ -58,7 +66,11 @@ public extension NetworkSession {
             urlRequest.httpBody = httpBody
         }
 
-        let task = URLSession.shared.dataTask(with: urlRequest) { data, _, error -> Void in
+        NetworkLogger.log(request: urlRequest)
+
+        let task = URLSession.shared.dataTask(with: urlRequest) { data, response, error -> Void in
+            NetworkLogger.log(response: response as? HTTPURLResponse, data: data, error: error)
+
             if error != nil {
                 self.completionHelper(result: .failure(NetworkError.default), completion: completion)
                 return

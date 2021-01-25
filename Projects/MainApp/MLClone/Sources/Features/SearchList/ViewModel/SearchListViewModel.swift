@@ -16,14 +16,26 @@ final class SearchListViewModel {
 
     private let searchText: String
 
-    init(text: String, coordinator: SearchListCoordinatorContract) {
+    private let repository: SearchListRepositoryContract
+
+    init(text: String,
+         coordinator: SearchListCoordinatorContract,
+         repository: SearchListRepositoryContract = SearchListRepository()) {
         searchText = text
+        self.repository = repository
         self.coordinator = coordinator
     }
 }
 
 extension SearchListViewModel: SearchListViewModelContract {
     func didLoad() {
-        print(searchText)
+        repository.fetchProducts(text: searchText) { result in
+            switch result {
+            case .success(let model):
+                print("")
+            case .failure(let error):
+                print(error.localizedDescription)
+            }
+        }
     }
 }

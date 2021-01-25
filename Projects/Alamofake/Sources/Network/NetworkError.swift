@@ -9,7 +9,7 @@ public enum NetworkError: Swift.Error {
     public var localizedDescription: String {
         switch self {
         case .default, .failedToDecode, .wrongBaseUrl:
-            return "Ocorreu um erro inesperado."
+            return "Ops! Estamos com problemas, tente novamente mais tarde."
         case .notConnected:
             return "Sem conexão com a internet :("
         }

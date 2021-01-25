@@ -6,11 +6,15 @@
 //
 
 import Foundation
+import Alamofake
 
 protocol SearchListRepositoryContract {
-//    func fetchProducts(text: String, completion: @escaping (Result<String, NetworkError>) -> Void)
+    func fetchProducts(text: String, completion: @escaping (Result<SearchModel, NetworkError>) -> Void)
 }
 
-final class SearchListRepository {
+final class SearchListRepository: SearchListRepositoryContract {
 
+    func fetchProducts(text: String, completion: @escaping (Result<SearchModel, NetworkError>) -> Void) {
+        SearchRequest(searchText: text).execute(completion: completion)
+    }
 }
