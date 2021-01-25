@@ -34,7 +34,7 @@ final class NetworkLogger {
 
     static func log(response: HTTPURLResponse?, data: Data?, error: Error?) {
        print("- - - - - - - NETWORK RESPONSE - - - - - - - - ")
-       defer { print("\n - - - - - - - - - -  END - - - - - - - - - - \n") }
+       defer { print(" - - - - - - - - - -  END - - - - - - - - - - ") }
        let urlString = response?.url?.absoluteString
        let components = NSURLComponents(string: urlString ?? "")
        let path = "\(components?.path ?? "")"

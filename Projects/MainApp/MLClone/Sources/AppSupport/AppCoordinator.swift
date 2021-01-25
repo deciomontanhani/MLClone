@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import CommonsUI
 
 final class AppCoordinator {
 
@@ -14,6 +15,12 @@ final class AppCoordinator {
 
     init(window: UIWindow) {
         self.window = window
+        setupStyle()
+    }
+
+    func setupStyle() {
+        navigation.navigationBar.barTintColor = MLColor.primary
+        navigation.navigationBar.tintColor = MLColor.Text.primary
     }
 
     func start() {

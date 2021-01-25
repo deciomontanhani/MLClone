@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import CommonsUI
 
 protocol SearchViewDelegate: class {
     func didTapSearch(text: String)
@@ -19,6 +20,11 @@ final class SearchView: UIView {
         let view = UISearchBar()
         view.delegate = self
         view.autocapitalizationType = .none
+        view.barTintColor = MLColor.primary
+        view.layer.borderColor = MLColor.primary.cgColor
+        view.showsCancelButton = true
+        view.tintColor = MLColor.Text.primary
+        view.searchTextField.backgroundColor = .white
         view.placeholder = "Digite um produto"
         view.translatesAutoresizingMaskIntoConstraints = false
         return view
@@ -28,7 +34,7 @@ final class SearchView: UIView {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
         label.numberOfLines = 0
-        label.text = "Seja bem vindo! Faça uma busca abaixo"
+        label.text = "Seja bem vindo! Faça uma busca acima"
         return label
     }()
 
