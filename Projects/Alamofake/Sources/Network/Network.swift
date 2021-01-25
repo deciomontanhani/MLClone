@@ -64,7 +64,7 @@ public extension NetworkSession {
         if let body = self.body,
             let httpBody = try? JSONSerialization.data(withJSONObject: body, options: []) {
             urlRequest.httpBody = httpBody
-        }
+        } 
 
         NetworkLogger.log(request: urlRequest)
 

@@ -11,7 +11,8 @@ let project = Project(name: "MLClone",
                                sources: ["MLClone/Sources/**"],
                                resources: ["MLClone/Resources/**"],
                                dependencies: [
-                            .project(target: "Alamofake", path: .relativeToManifest("../Alamofake"))
+                              .project(target: "CommonsUI", path: .relativeToManifest("../CommonsUI")),
+                              .project(target: "Alamofake", path: .relativeToManifest("../Alamofake"))
                         ]),
                         Target(name: "MLCloneTests",
                                platform: .iOS,
