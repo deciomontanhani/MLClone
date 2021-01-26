@@ -41,6 +41,7 @@ final class SearchListViewModel {
 
 private extension SearchListViewModel {
     func searchProducts() {
+        controller?.showLoading()
         repository.fetchProducts(text: searchText) { [weak self] result in
             guard let self = self else { return }
             switch result {

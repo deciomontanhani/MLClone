@@ -34,7 +34,7 @@ final class SearchListView: UIView {
 
     private lazy var productsList: UICollectionView = {
         let view = UICollectionView(frame: .zero, collectionViewLayout: UICollectionViewFlowLayout())
-        view.backgroundColor = .white
+        view.backgroundColor = MLColor.Background.lightGray
         view.delegate = self
         view.dataSource = self
         view.registerCell(cellType: ProductCollectionViewCell.self)
@@ -59,6 +59,8 @@ extension SearchListView: ViewCode {
     }
 
     func buildConstraints() {
+        loadingErrorView.edges(to: self)
+
         productsList.edges(to: self, excluding: .top)
         productsList.safeAreaTop(to: self)
     }
@@ -102,8 +104,17 @@ extension SearchListView: UICollectionViewDelegate {
 
 extension SearchListView: UICollectionViewDelegateFlowLayout {
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        return CGSize(width: collectionView.bounds.width, height: 300)
+        return CGSize(width: collectionView.bounds.width, height: 120)
     }
+
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
+        return 1
+    }
+
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumInteritemSpacingForSectionAt section: Int) -> CGFloat {
+        return 1
+    }
+
 }
 
 extension SearchListView: UICollectionViewDataSource {

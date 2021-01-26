@@ -20,6 +20,14 @@ final class ProductCellViewModel {
         URL(string: model.thumbnail)
     }
 
+    var freeShipping: Bool {
+        model.shipping
+    }
+
+    var price: String {
+        model.price?.toCurrency ?? ""
+    }
+
     init(model: SearchResult) {
         self.model = model
     }

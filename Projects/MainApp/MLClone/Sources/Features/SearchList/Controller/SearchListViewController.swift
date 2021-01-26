@@ -36,7 +36,7 @@ final class SearchListViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         viewModel.didLoad()
-        title = "Pesquisando..."
+        title = "Resultado da pesquisa"
     }
 
     override func loadView() {
