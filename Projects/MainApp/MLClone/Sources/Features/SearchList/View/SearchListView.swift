@@ -98,7 +98,7 @@ extension SearchListView: LoadingErrorViewProtocol {
 
 extension SearchListView: UICollectionViewDelegate {
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-
+        delegate?.didTapProduct(at: indexPath.row)
     }
 }
 

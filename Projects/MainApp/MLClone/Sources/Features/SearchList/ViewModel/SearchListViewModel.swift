@@ -63,7 +63,9 @@ extension SearchListViewModel: SearchListViewModelContract {
     }
 
     func didTapProduct(at index: Int) {
-        // call coordinator
+        guard let model = results[optional: index] else { return }
+
+        coordinator.showProductDetail(with: model.id)
     }
 
     func didLoad() {

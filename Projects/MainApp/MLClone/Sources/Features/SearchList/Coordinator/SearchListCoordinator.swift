@@ -7,7 +7,9 @@
 
 import UIKit
 
-protocol SearchListCoordinatorContract {}
+protocol SearchListCoordinatorContract {
+    func showProductDetail(with productId: String)
+}
 
 final class SearchListCoordinator: SearchListCoordinatorContract {
 
@@ -22,5 +24,10 @@ final class SearchListCoordinator: SearchListCoordinatorContract {
         let controller = SearchListViewController(viewModel: viewModel)
         viewModel.set(controller: controller)
         navigation.pushViewController(controller, animated: true)
+    }
+
+    func showProductDetail(with productId: String) {
+        let coordinator = ProductDetailCoordinator(navigation: navigation)
+        coordinator.start(productId: productId)
     }
 }
