@@ -21,7 +21,7 @@ public enum LoadingErrorViewState {
 
 public final class LoadingErrorView: UIView {
 
-    weak var delegate: LoadingErrorViewProtocol?
+    public weak var delegate: LoadingErrorViewProtocol?
 
     private var text: String? {
         didSet {

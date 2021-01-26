@@ -21,6 +21,7 @@ final class AppCoordinator {
     func setupStyle() {
         navigation.navigationBar.barTintColor = MLColor.primary
         navigation.navigationBar.tintColor = MLColor.Text.primary
+        UIBarButtonItem.appearance().setBackButtonTitlePositionAdjustment(UIOffset(horizontal: -1000, vertical: 0), for:UIBarMetrics.default)
     }
 
     func start() {

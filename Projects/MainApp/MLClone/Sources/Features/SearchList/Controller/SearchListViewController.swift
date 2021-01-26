@@ -7,8 +7,11 @@
 
 import UIKit
 
-protocol SearchListViewControllerContract {
-    
+protocol SearchListViewControllerContract: class {
+    func showLoading()
+    func stopLoading()
+    func showError(message: String?)
+    func reloadData()
 }
 
 final class SearchListViewController: UIViewController {
@@ -33,6 +36,7 @@ final class SearchListViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         viewModel.didLoad()
+        title = "Pesquisando..."
     }
 
     override func loadView() {
@@ -42,9 +46,37 @@ final class SearchListViewController: UIViewController {
 }
 
 extension SearchListViewController: SearchListViewControllerContract {
+    func showLoading() {
+        customView.showLoading()
+    }
 
+    func stopLoading() {
+        customView.stopLoading()
+    }
+
+    func showError(message: String?) {
+        customView.showError(message: message)
+    }
+
+    func reloadData() {
+        customView.reloadData()
+    }
 }
 
 extension SearchListViewController: SearchListViewDelegate {
+    func getProductViewModel(at index: Int) -> ProductCellViewModel? {
+        return viewModel.getProductViewModel(at: index)
+    }
 
+    func didTapProduct(at index: Int) {
+        viewModel.didTapProduct(at: index)
+    }
+
+    func getCountList() -> Int {
+        viewModel.getCountList()
+    }
+
+    func retry() {
+        viewModel.retry()
+    }
 }

@@ -20,6 +20,7 @@ final class SearchListCoordinator: SearchListCoordinatorContract {
     func start(searchText: String) {
         let viewModel = SearchListViewModel(text: searchText, coordinator: self)
         let controller = SearchListViewController(viewModel: viewModel)
+        viewModel.set(controller: controller)
         navigation.pushViewController(controller, animated: true)
     }
 }
