@@ -37,7 +37,7 @@ struct SearchResult: Codable {
     }
 
     enum ShippingKeys: String, CodingKey {
-        case freeShipping
+        case freeShipping = "free_shipping"
     }
 
     init(from decoder: Decoder) throws {

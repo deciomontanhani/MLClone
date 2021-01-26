@@ -29,7 +29,7 @@ final class ProductCollectionViewCell: UICollectionViewCell {
 
     private let freeShipping: UILabel = {
         let view = UILabel()
-        view.font = .systemFont(ofSize: 14)
+        view.font = .systemFont(ofSize: 11)
         view.backgroundColor = .systemGreen
         view.textColor = .white
         view.text = "FRETE GRÁTIS"
@@ -91,6 +91,7 @@ extension ProductCollectionViewCell: ViewCode {
 
         freeShipping.topToBottom(of: price, offset: MLSpacing.tiny)
         freeShipping.leftToRight(of: productImageView, offset: MLSpacing.tiny)
+        freeShipping.bottom(to: contentView, offset: MLSpacing.small, relation: .lessThanOrEqual)
     }
 
     func additionalSetup() {
