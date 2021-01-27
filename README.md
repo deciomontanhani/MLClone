@@ -31,7 +31,7 @@ tuist focus # generate the files and open in Xcode
 ```
 
 ## Modules
-I decided to create some modules for better build performance and code organization.
+I decided to create some modules for better build performance, code organization and reuse.
 
 #### Alamofake
 It's my network layer with a funny name! I built using URLSession, with some Request/Response logs.
