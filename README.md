@@ -27,7 +27,8 @@ After that, to generate the .xcworkspace and .xcodeproj, run the following comma
 
 ```bash
 tuist up # Setting up the environment
-tuist focus # generate the files and open in Xcode
+tuist generate # generate xcodeproj and workspace
+tuist focus MLClone # generate the files and open in Xcode
 ```
 
 ## Modules
