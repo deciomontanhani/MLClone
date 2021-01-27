@@ -1,0 +1,1760 @@
+{
+    "site_id": "MLB",
+    "query": "iPhone 11 pro max",
+    "paging": {
+        "total": 478,
+        "primary_results": 1000,
+        "offset": 0,
+        "limit": 50
+    },
+    "results": [
+        {
+            "id": "MLB1742066740",
+            "site_id": "MLB",
+            "title": "iPhone 11 Pro Max 256 Gb Cinza-espacial",
+            "seller": {
+                "id": 452541244,
+                "permalink": "http://perfil.mercadolivre.com.br/TMNIMPORTS2",
+                "registration_date": "2019-07-15T22:00:09.000-04:00",
+                "car_dealer": false,
+                "real_estate_agency": false,
+                "tags": [
+                    "normal",
+                    "mshops",
+                    "messages_as_seller",
+                    "messages_as_buyer"
+                ],
+                "seller_reputation": {
+                    "transactions": {
+                        "total": 1009,
+                        "canceled": 206,
+                        "period": "historic",
+                        "ratings": {
+                            "negative": 0.03,
+                            "positive": 0.96,
+                            "neutral": 0.01
+                        },
+                        "completed": 803
+                    },
+                    "power_seller_status": null,
+                    "metrics": {
+                        "claims": {
+                            "rate": 0.029,
+                            "value": 11,
+                            "period": "60 days"
+                        },
+                        "delayed_handling_time": {
+                            "rate": 0.1337,
+                            "value": 44,
+                            "period": "60 days"
+                        },
+                        "sales": {
+                            "period": "60 days",
+                            "completed": 309
+                        },
+                        "cancellations": {
+                            "rate": 0,
+                            "value": 0,
+                            "period": "60 days"
+                        }
+                    },
+                    "level_id": "5_green"
+                }
+            },
+            "price": 9899,
+            "prices": {
+                "id": "MLB1742066740",
+                "prices": [
+                    {
+                        "id": "9a756bc3-0556-4a2a-be41-a61cda801d2d",
+                        "type": "standard",
+                        "conditions": {
+                            "context_restrictions": [],
+                            "start_time": null,
+                            "end_time": null,
+                            "eligible": true
+                        },
+                        "amount": 9899,
+                        "regular_amount": null,
+                        "currency_id": "BRL",
+                        "exchange_rate_context": "DEFAULT",
+                        "metadata": {},
+                        "last_updated": "2020-12-15T22:10:14Z"
+                    }
+                ],
+                "presentation": {
+                    "display_currency": "BRL"
+                },
+                "payment_method_prices": []
+            },
+            "sale_price": null,
+            "currency_id": "BRL",
+            "available_quantity": 23,
+            "sold_quantity": 2,
+            "buying_mode": "buy_it_now",
+            "listing_type_id": "gold_pro",
+            "stop_time": "2040-12-10T04:00:00.000Z",
+            "condition": "new",
+            "permalink": "https://www.mercadolivre.com.br/iphone-11-pro-max-256-gb-cinza-espacial/p/MLB15150977",
+            "thumbnail": "http://mlb-s1-p.mlstatic.com/736327-MLA44294712029_122020-I.jpg",
+            "accepts_mercadopago": true,
+            "installments": {
+                "quantity": 12,
+                "amount": 824.92,
+                "rate": 0,
+                "currency_id": "BRL"
+            },
+            "address": {
+                "state_id": "BR-GO",
+                "state_name": "Goiás",
+                "city_id": "TUxR29p4m5pYQ",
+                "city_name": "Goiânia"
+            },
+            "shipping": {
+                "free_shipping": true,
+                "mode": "me2",
+                "tags": [
+                    "mandatory_free_shipping"
+                ],
+                "logistic_type": "drop_off",
+                "store_pick_up": false
+            },
+            "seller_address": {
+                "id": "",
+                "comment": "",
+                "address_line": "",
+                "zip_code": "",
+                "country": {
+                    "id": "BR",
+                    "name": "Brasil"
+                },
+                "state": {
+                    "id": "BR-GO",
+                    "name": "Goiás"
+                },
+                "city": {
+                    "id": "TUxR29p4m5pYQ",
+                    "name": "Goiânia"
+                },
+                "latitude": "",
+                "longitude": ""
+            },
+            "attributes": [
+                {
+                    "source": 1,
+                    "id": "BRAND",
+                    "name": "Marca",
+                    "value_name": "Apple",
+                    "value_struct": null,
+                    "attribute_group_id": "OTHERS",
+                    "attribute_group_name": "Outros",
+                    "value_id": "9344",
+                    "values": [
+                        {
+                            "id": "9344",
+                            "name": "Apple",
+                            "struct": null,
+                            "source": 1
+                        }
+                    ]
+                },
+                {
+                    "source": 1,
+                    "id": "GPU_MODEL",
+                    "name": "Modelo de GPU",
+                    "value_name": "Apple GPU MP4",
+                    "value_struct": null,
+                    "attribute_group_id": "OTHERS",
+                    "value_id": "7740544",
+                    "values": [
+                        {
+                            "id": "7740544",
+                            "name": "Apple GPU MP4",
+                            "struct": null,
+                            "source": 1
+                        }
+                    ],
+                    "attribute_group_name": "Outros"
+                },
+                {
+                    "attribute_group_name": "Outros",
+                    "source": 6808261514773724,
+                    "value_id": "2230284",
+                    "value_name": "Novo",
+                    "value_struct": null,
+                    "values": [
+                        {
+                            "id": "2230284",
+                            "name": "Novo",
+                            "struct": null,
+                            "source": 6808261514773724
+                        }
+                    ],
+                    "attribute_group_id": "OTHERS",
+                    "id": "ITEM_CONDITION",
+                    "name": "Condição do item"
+                },
+                {
+                    "values": [
+                        {
+                            "id": "58993",
+                            "name": "iPhone",
+                            "struct": null,
+                            "source": 1
+                        }
+                    ],
+                    "attribute_group_id": "OTHERS",
+                    "source": 1,
+                    "id": "LINE",
+                    "name": "Linha",
+                    "value_struct": null,
+                    "attribute_group_name": "Outros",
+                    "value_id": "58993",
+                    "value_name": "iPhone"
+                },
+                {
+                    "id": "MODEL",
+                    "name": "Modelo",
+                    "value_id": "7741677",
+                    "value_name": "iPhone 11 Pro Max",
+                    "source": 1,
+                    "value_struct": null,
+                    "values": [
+                        {
+                            "id": "7741677",
+                            "name": "iPhone 11 Pro Max",
+                            "struct": null,
+                            "source": 1
+                        }
+                    ],
+                    "attribute_group_id": "OTHERS",
+                    "attribute_group_name": "Outros"
+                },
+                {
+                    "value_struct": null,
+                    "attribute_group_name": "Outros",
+                    "id": "PROCESSOR_MODEL",
+                    "name": "Modelo do processador",
+                    "value_id": "7740540",
+                    "value_name": "Apple A13 Bionic",
+                    "values": [
+                        {
+                            "id": "7740540",
+                            "name": "Apple A13 Bionic",
+                            "struct": null,
+                            "source": 1
+                        }
+                    ],
+                    "attribute_group_id": "OTHERS",
+                    "source": 1
+                },
+                {
+                    "value_name": "226 g",
+                    "value_struct": {
+                        "number": 226,
+                        "unit": "g"
+                    },
+                    "attribute_group_id": "OTHERS",
+                    "source": 1,
+                    "name": "Peso",
+                    "value_id": "2713650",
+                    "attribute_group_name": "Outros",
+                    "id": "WEIGHT",
+                    "values": [
+                        {
+                            "id": "2713650",
+                            "name": "226 g",
+                            "struct": {
+                                "number": 226,
+                                "unit": "g"
+                            },
+                            "source": 1
+                        }
+                    ]
+                }
+            ],
+            "differential_pricing": {
+                "id": 33580182
+            },
+            "original_price": null,
+            "category_id": "MLB1055",
+            "official_store_id": null,
+            "domain_id": "MLB-CELLPHONES",
+            "catalog_product_id": "MLB15150977",
+            "tags": [
+                "brand_verified",
+                "good_quality_picture",
+                "immediate_payment",
+                "cart_eligible",
+                "shipping_guaranteed"
+            ],
+            "catalog_listing": true,
+            "order_backend": 1
+        },
+        {
+            "id": "MLB1461313973",
+            "site_id": "MLB",
+            "title": "iPhone 11 Pro Max 64 Gb Verde-meia-noite",
+            "seller": {
+                "id": 54486513,
+                "permalink": "http://perfil.mercadolivre.com.br/ROCHAVARIEDADESGO",
+                "registration_date": "2008-09-17T19:14:47.000-04:00",
+                "car_dealer": false,
+                "real_estate_agency": false,
+                "tags": [
+                    "normal",
+                    "credits_profile",
+                    "messages_as_seller",
+                    "messages_as_buyer"
+                ],
+                "seller_reputation": {
+                    "transactions": {
+                        "total": 2198,
+                        "canceled": 258,
+                        "period": "historic",
+                        "ratings": {
+                            "negative": 0,
+                            "positive": 1,
+                            "neutral": 0
+                        },
+                        "completed": 1940
+                    },
+                    "power_seller_status": "gold",
+                    "metrics": {
+                        "claims": {
+                            "rate": 0.023,
+                            "value": 8,
+                            "period": "60 days"
+                        },
+                        "delayed_handling_time": {
+                            "rate": 0.0969,
+                            "value": 29,
+                            "period": "60 days"
+                        },
+                        "sales": {
+                            "period": "60 days",
+                            "completed": 303
+                        },
+                        "cancellations": {
+                            "rate": 0.0144,
+                            "value": 5,
+                            "period": "60 days"
+                        }
+                    },
+                    "level_id": "5_green"
+                }
+            },
+            "price": 9099,
+            "prices": {
+                "id": "MLB1461313973",
+                "prices": [
+                    {
+                        "id": "2",
+                        "type": "standard",
+                        "conditions": {
+                            "context_restrictions": [],
+                            "start_time": null,
+                            "end_time": null,
+                            "eligible": true
+                        },
+                        "amount": 9099,
+                        "regular_amount": null,
+                        "currency_id": "BRL",
+                        "exchange_rate_context": "DEFAULT",
+                        "metadata": {},
+                        "last_updated": "2021-01-20T14:22:16Z"
+                    }
+                ],
+                "presentation": {
+                    "display_currency": "BRL"
+                },
+                "payment_method_prices": []
+            },
+            "sale_price": null,
+            "currency_id": "BRL",
+            "available_quantity": 4,
+            "sold_quantity": 1,
+            "buying_mode": "buy_it_now",
+            "listing_type_id": "gold_pro",
+            "stop_time": "2040-03-03T04:00:00.000Z",
+            "condition": "new",
+            "permalink": "https://www.mercadolivre.com.br/iphone-11-pro-max-64-gb-verde-meia-noite/p/MLB15150975",
+            "thumbnail": "http://mlb-s2-p.mlstatic.com/732590-MLA44294539570_122020-I.jpg",
+            "accepts_mercadopago": true,
+            "installments": {
+                "quantity": 12,
+                "amount": 758.25,
+                "rate": 0,
+                "currency_id": "BRL"
+            },
+            "address": {
+                "state_id": "BR-GO",
+                "state_name": "Goiás",
+                "city_id": "TUxR29p4m5pYQ",
+                "city_name": "Goiânia"
+            },
+            "shipping": {
+                "free_shipping": true,
+                "mode": "me2",
+                "tags": [
+                    "mandatory_free_shipping"
+                ],
+                "logistic_type": "drop_off",
+                "store_pick_up": false
+            },
+            "seller_address": {
+                "id": "",
+                "comment": "",
+                "address_line": "",
+                "zip_code": "",
+                "country": {
+                    "id": "BR",
+                    "name": "Brasil"
+                },
+                "state": {
+                    "id": "BR-GO",
+                    "name": "Goiás"
+                },
+                "city": {
+                    "id": "TUxR29p4m5pYQ",
+                    "name": "Goiânia"
+                },
+                "latitude": "",
+                "longitude": ""
+            },
+            "attributes": [
+                {
+                    "values": [
+                        {
+                            "id": "9344",
+                            "name": "Apple",
+                            "struct": null,
+                            "source": 1
+                        }
+                    ],
+                    "attribute_group_id": "OTHERS",
+                    "source": 1,
+                    "id": "BRAND",
+                    "name": "Marca",
+                    "value_id": "9344",
+                    "value_struct": null,
+                    "value_name": "Apple",
+                    "attribute_group_name": "Outros"
+                },
+                {
+                    "name": "Modelo de GPU",
+                    "value_name": "Apple GPU MP4",
+                    "value_struct": null,
+                    "values": [
+                        {
+                            "name": "Apple GPU MP4",
+                            "struct": null,
+                            "source": 4709228965570453,
+                            "id": "7740544"
+                        }
+                    ],
+                    "attribute_group_id": "OTHERS",
+                    "attribute_group_name": "Outros",
+                    "source": 4709228965570453,
+                    "id": "GPU_MODEL",
+                    "value_id": "7740544"
+                },
+                {
+                    "value_struct": null,
+                    "attribute_group_id": "OTHERS",
+                    "attribute_group_name": "Outros",
+                    "source": 2860837171021627,
+                    "id": "ITEM_CONDITION",
+                    "name": "Condição do item",
+                    "value_id": "2230284",
+                    "value_name": "Novo",
+                    "values": [
+                        {
+                            "source": 2860837171021627,
+                            "id": "2230284",
+                            "name": "Novo",
+                            "struct": null
+                        }
+                    ]
+                },
+                {
+                    "attribute_group_name": "Outros",
+                    "id": "LINE",
+                    "value_id": "58993",
+                    "value_struct": null,
+                    "values": [
+                        {
+                            "id": "58993",
+                            "name": "iPhone",
+                            "struct": null,
+                            "source": 1
+                        }
+                    ],
+                    "name": "Linha",
+                    "value_name": "iPhone",
+                    "attribute_group_id": "OTHERS",
+                    "source": 1
+                },
+                {
+                    "id": "MODEL",
+                    "attribute_group_name": "Outros",
+                    "source": 4709228965570453,
+                    "attribute_group_id": "OTHERS",
+                    "name": "Modelo",
+                    "value_id": "7741677",
+                    "value_name": "iPhone 11 Pro Max",
+                    "value_struct": null,
+                    "values": [
+                        {
+                            "name": "iPhone 11 Pro Max",
+                            "struct": null,
+                            "source": 4709228965570453,
+                            "id": "7741677"
+                        }
+                    ]
+                },
+                {
+                    "source": 1,
+                    "id": "PROCESSOR_MODEL",
+                    "value_id": "7740540",
+                    "value_struct": null,
+                    "attribute_group_id": "OTHERS",
+                    "attribute_group_name": "Outros",
+                    "name": "Modelo do processador",
+                    "value_name": "Apple A13 Bionic",
+                    "values": [
+                        {
+                            "id": "7740540",
+                            "name": "Apple A13 Bionic",
+                            "struct": null,
+                            "source": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "Peso",
+                    "value_id": "2713650",
+                    "value_name": "226 g",
+                    "value_struct": {
+                        "number": 226,
+                        "unit": "g"
+                    },
+                    "id": "WEIGHT",
+                    "values": [
+                        {
+                            "id": "2713650",
+                            "name": "226 g",
+                            "struct": {
+                                "number": 226,
+                                "unit": "g"
+                            },
+                            "source": 1
+                        }
+                    ],
+                    "attribute_group_id": "OTHERS",
+                    "attribute_group_name": "Outros",
+                    "source": 1
+                }
+            ],
+            "differential_pricing": {
+                "id": 33580182
+            },
+            "original_price": null,
+            "category_id": "MLB1055",
+            "official_store_id": null,
+            "domain_id": "MLB-CELLPHONES",
+            "catalog_product_id": "MLB15150975",
+            "tags": [
+                "brand_verified",
+                "good_quality_picture",
+                "good_quality_thumbnail",
+                "immediate_payment",
+                "cart_eligible",
+                "shipping_guaranteed",
+                "meli_choice_candidate"
+            ],
+            "catalog_listing": true,
+            "order_backend": 2
+        },
+        {
+            "id": "MLB1461310363",
+            "site_id": "MLB",
+            "title": "iPhone 11 Pro Max 256 Gb Verde-meia-noite",
+            "seller": {
+                "id": 54486513,
+                "permalink": "http://perfil.mercadolivre.com.br/ROCHAVARIEDADESGO",
+                "registration_date": "2008-09-17T19:14:47.000-04:00",
+                "car_dealer": false,
+                "real_estate_agency": false,
+                "tags": [
+                    "normal",
+                    "credits_profile",
+                    "messages_as_seller",
+                    "messages_as_buyer"
+                ],
+                "seller_reputation": {
+                    "transactions": {
+                        "total": 2198,
+                        "canceled": 258,
+                        "period": "historic",
+                        "ratings": {
+                            "negative": 0,
+                            "positive": 1,
+                            "neutral": 0
+                        },
+                        "completed": 1940
+                    },
+                    "power_seller_status": "gold",
+                    "metrics": {
+                        "claims": {
+                            "rate": 0.023,
+                            "value": 8,
+                            "period": "60 days"
+                        },
+                        "delayed_handling_time": {
+                            "rate": 0.0969,
+                            "value": 29,
+                            "period": "60 days"
+                        },
+                        "sales": {
+                            "period": "60 days",
+                            "completed": 303
+                        },
+                        "cancellations": {
+                            "rate": 0.0144,
+                            "value": 5,
+                            "period": "60 days"
+                        }
+                    },
+                    "level_id": "5_green"
+                }
+            },
+            "price": 10349,
+            "prices": {
+                "id": "MLB1461310363",
+                "prices": [
+                    {
+                        "id": "2",
+                        "type": "standard",
+                        "conditions": {
+                            "context_restrictions": [],
+                            "start_time": null,
+                            "end_time": null,
+                            "eligible": true
+                        },
+                        "amount": 10349,
+                        "regular_amount": null,
+                        "currency_id": "BRL",
+                        "exchange_rate_context": "DEFAULT",
+                        "metadata": {},
+                        "last_updated": "2021-01-15T14:40:02Z"
+                    }
+                ],
+                "presentation": {
+                    "display_currency": "BRL"
+                },
+                "payment_method_prices": []
+            },
+            "sale_price": null,
+            "currency_id": "BRL",
+            "available_quantity": 5,
+            "sold_quantity": 4,
+            "buying_mode": "buy_it_now",
+            "listing_type_id": "gold_pro",
+            "stop_time": "2040-03-03T04:00:00.000Z",
+            "condition": "new",
+            "permalink": "https://www.mercadolivre.com.br/iphone-11-pro-max-256-gb-verde-meia-noite/p/MLB15150979",
+            "thumbnail": "http://mlb-s2-p.mlstatic.com/672556-MLA44294539584_122020-I.jpg",
+            "accepts_mercadopago": true,
+            "installments": {
+                "quantity": 12,
+                "amount": 862.42,
+                "rate": 0,
+                "currency_id": "BRL"
+            },
+            "address": {
+                "state_id": "BR-GO",
+                "state_name": "Goiás",
+                "city_id": "TUxR29p4m5pYQ",
+                "city_name": "Goiânia"
+            },
+            "shipping": {
+                "free_shipping": true,
+                "mode": "me2",
+                "tags": [
+                    "mandatory_free_shipping"
+                ],
+                "logistic_type": "drop_off",
+                "store_pick_up": false
+            },
+            "seller_address": {
+                "id": "",
+                "comment": "",
+                "address_line": "",
+                "zip_code": "",
+                "country": {
+                    "id": "BR",
+                    "name": "Brasil"
+                },
+                "state": {
+                    "id": "BR-GO",
+                    "name": "Goiás"
+                },
+                "city": {
+                    "id": "TUxR29p4m5pYQ",
+                    "name": "Goiânia"
+                },
+                "latitude": "",
+                "longitude": ""
+            },
+            "attributes": [
+                {
+                    "id": "BRAND",
+                    "value_name": "Apple",
+                    "values": [
+                        {
+                            "id": "9344",
+                            "name": "Apple",
+                            "struct": null,
+                            "source": 1
+                        }
+                    ],
+                    "attribute_group_name": "Outros",
+                    "source": 1,
+                    "name": "Marca",
+                    "value_id": "9344",
+                    "value_struct": null,
+                    "attribute_group_id": "OTHERS"
+                },
+                {
+                    "value_struct": null,
+                    "source": 4709228965570453,
+                    "id": "GPU_MODEL",
+                    "name": "Modelo de GPU",
+                    "value_id": "7740544",
+                    "value_name": "Apple GPU MP4",
+                    "values": [
+                        {
+                            "source": 4709228965570453,
+                            "id": "7740544",
+                            "name": "Apple GPU MP4",
+                            "struct": null
+                        }
+                    ],
+                    "attribute_group_id": "OTHERS",
+                    "attribute_group_name": "Outros"
+                },
+                {
+                    "attribute_group_id": "OTHERS",
+                    "attribute_group_name": "Outros",
+                    "name": "Condição do item",
+                    "value_id": "2230284",
+                    "value_name": "Novo",
+                    "source": 2860837171021627,
+                    "id": "ITEM_CONDITION",
+                    "value_struct": null,
+                    "values": [
+                        {
+                            "id": "2230284",
+                            "name": "Novo",
+                            "struct": null,
+                            "source": 2860837171021627
+                        }
+                    ]
+                },
+                {
+                    "name": "Linha",
+                    "value_id": "58993",
+                    "value_name": "iPhone",
+                    "values": [
+                        {
+                            "struct": null,
+                            "source": 1,
+                            "id": "58993",
+                            "name": "iPhone"
+                        }
+                    ],
+                    "attribute_group_name": "Outros",
+                    "id": "LINE",
+                    "value_struct": null,
+                    "attribute_group_id": "OTHERS",
+                    "source": 1
+                },
+                {
+                    "attribute_group_name": "Outros",
+                    "source": 4709228965570453,
+                    "id": "MODEL",
+                    "name": "Modelo",
+                    "value_id": "7741677",
+                    "value_struct": null,
+                    "attribute_group_id": "OTHERS",
+                    "value_name": "iPhone 11 Pro Max",
+                    "values": [
+                        {
+                            "id": "7741677",
+                            "name": "iPhone 11 Pro Max",
+                            "struct": null,
+                            "source": 4709228965570453
+                        }
+                    ]
+                },
+                {
+                    "id": "PROCESSOR_MODEL",
+                    "name": "Modelo do processador",
+                    "value_name": "Apple A13 Bionic",
+                    "attribute_group_id": "OTHERS",
+                    "attribute_group_name": "Outros",
+                    "source": 1,
+                    "value_id": "7740540",
+                    "value_struct": null,
+                    "values": [
+                        {
+                            "source": 1,
+                            "id": "7740540",
+                            "name": "Apple A13 Bionic",
+                            "struct": null
+                        }
+                    ]
+                },
+                {
+                    "value_name": "226 g",
+                    "value_struct": {
+                        "number": 226,
+                        "unit": "g"
+                    },
+                    "value_id": "2713650",
+                    "values": [
+                        {
+                            "struct": {
+                                "number": 226,
+                                "unit": "g"
+                            },
+                            "source": 1,
+                            "id": "2713650",
+                            "name": "226 g"
+                        }
+                    ],
+                    "attribute_group_id": "OTHERS",
+                    "attribute_group_name": "Outros",
+                    "source": 1,
+                    "id": "WEIGHT",
+                    "name": "Peso"
+                }
+            ],
+            "differential_pricing": {
+                "id": 33580182
+            },
+            "original_price": null,
+            "category_id": "MLB1055",
+            "official_store_id": null,
+            "domain_id": "MLB-CELLPHONES",
+            "catalog_product_id": "MLB15150979",
+            "tags": [
+                "brand_verified",
+                "good_quality_picture",
+                "good_quality_thumbnail",
+                "immediate_payment",
+                "cart_eligible",
+                "shipping_guaranteed"
+            ],
+            "catalog_listing": true,
+            "order_backend": 3
+        },
+        {
+            "id": "MLB1461310300",
+            "site_id": "MLB",
+            "title": "iPhone 11 Pro Max 256 Gb Ouro",
+            "seller": {
+                "id": 54486513,
+                "permalink": "http://perfil.mercadolivre.com.br/ROCHAVARIEDADESGO",
+                "registration_date": "2008-09-17T19:14:47.000-04:00",
+                "car_dealer": false,
+                "real_estate_agency": false,
+                "tags": [
+                    "normal",
+                    "credits_profile",
+                    "messages_as_seller",
+                    "messages_as_buyer"
+                ],
+                "seller_reputation": {
+                    "transactions": {
+                        "total": 2198,
+                        "canceled": 258,
+                        "period": "historic",
+                        "ratings": {
+                            "negative": 0,
+                            "positive": 1,
+                            "neutral": 0
+                        },
+                        "completed": 1940
+                    },
+                    "power_seller_status": "gold",
+                    "metrics": {
+                        "claims": {
+                            "rate": 0.023,
+                            "value": 8,
+                            "period": "60 days"
+                        },
+                        "delayed_handling_time": {
+                            "rate": 0.0969,
+                            "value": 29,
+                            "period": "60 days"
+                        },
+                        "sales": {
+                            "period": "60 days",
+                            "completed": 303
+                        },
+                        "cancellations": {
+                            "rate": 0.0144,
+                            "value": 5,
+                            "period": "60 days"
+                        }
+                    },
+                    "level_id": "5_green"
+                }
+            },
+            "price": 10349,
+            "prices": {
+                "id": "MLB1461310300",
+                "prices": [
+                    {
+                        "id": "2",
+                        "type": "standard",
+                        "conditions": {
+                            "context_restrictions": [],
+                            "start_time": null,
+                            "end_time": null,
+                            "eligible": true
+                        },
+                        "amount": 10349,
+                        "regular_amount": null,
+                        "currency_id": "BRL",
+                        "exchange_rate_context": "DEFAULT",
+                        "metadata": {},
+                        "last_updated": "2021-01-20T14:29:46Z"
+                    }
+                ],
+                "presentation": {
+                    "display_currency": "BRL"
+                },
+                "payment_method_prices": []
+            },
+            "sale_price": null,
+            "currency_id": "BRL",
+            "available_quantity": 5,
+            "sold_quantity": 7,
+            "buying_mode": "buy_it_now",
+            "listing_type_id": "gold_pro",
+            "stop_time": "2040-03-03T04:00:00.000Z",
+            "condition": "new",
+            "permalink": "https://www.mercadolivre.com.br/iphone-11-pro-max-256-gb-ouro/p/MLB15150976",
+            "thumbnail": "http://mlb-s1-p.mlstatic.com/901999-MLA44294539574_122020-I.jpg",
+            "accepts_mercadopago": true,
+            "installments": {
+                "quantity": 12,
+                "amount": 862.42,
+                "rate": 0,
+                "currency_id": "BRL"
+            },
+            "address": {
+                "state_id": "BR-GO",
+                "state_name": "Goiás",
+                "city_id": "TUxR29p4m5pYQ",
+                "city_name": "Goiânia"
+            },
+            "shipping": {
+                "free_shipping": true,
+                "mode": "me2",
+                "tags": [
+                    "mandatory_free_shipping"
+                ],
+                "logistic_type": "drop_off",
+                "store_pick_up": false
+            },
+            "seller_address": {
+                "id": "",
+                "comment": "",
+                "address_line": "",
+                "zip_code": "",
+                "country": {
+                    "id": "BR",
+                    "name": "Brasil"
+                },
+                "state": {
+                    "id": "BR-GO",
+                    "name": "Goiás"
+                },
+                "city": {
+                    "id": "TUxR29p4m5pYQ",
+                    "name": "Goiânia"
+                },
+                "latitude": "",
+                "longitude": ""
+            },
+            "attributes": [
+                {
+                    "name": "Marca",
+                    "value_struct": null,
+                    "values": [
+                        {
+                            "id": "9344",
+                            "name": "Apple",
+                            "struct": null,
+                            "source": 1
+                        }
+                    ],
+                    "attribute_group_id": "OTHERS",
+                    "attribute_group_name": "Outros",
+                    "id": "BRAND",
+                    "value_id": "9344",
+                    "value_name": "Apple",
+                    "source": 1
+                },
+                {
+                    "name": "Modelo de GPU",
+                    "value_name": "Apple GPU MP4",
+                    "value_struct": null,
+                    "attribute_group_id": "OTHERS",
+                    "attribute_group_name": "Outros",
+                    "id": "GPU_MODEL",
+                    "values": [
+                        {
+                            "id": "7740544",
+                            "name": "Apple GPU MP4",
+                            "struct": null,
+                            "source": 4709228965570453
+                        }
+                    ],
+                    "source": 4709228965570453,
+                    "value_id": "7740544"
+                },
+                {
+                    "value_id": "2230284",
+                    "value_name": "Novo",
+                    "values": [
+                        {
+                            "id": "2230284",
+                            "name": "Novo",
+                            "struct": null,
+                            "source": 6808261514773724
+                        }
+                    ],
+                    "attribute_group_id": "OTHERS",
+                    "source": 6808261514773724,
+                    "id": "ITEM_CONDITION",
+                    "name": "Condição do item",
+                    "value_struct": null,
+                    "attribute_group_name": "Outros"
+                },
+                {
+                    "id": "LINE",
+                    "name": "Linha",
+                    "value_id": "58993",
+                    "value_name": "iPhone",
+                    "value_struct": null,
+                    "values": [
+                        {
+                            "id": "58993",
+                            "name": "iPhone",
+                            "struct": null,
+                            "source": 1
+                        }
+                    ],
+                    "attribute_group_id": "OTHERS",
+                    "attribute_group_name": "Outros",
+                    "source": 1
+                },
+                {
+                    "value_name": "iPhone 11 Pro Max",
+                    "id": "MODEL",
+                    "name": "Modelo",
+                    "value_id": "7741677",
+                    "attribute_group_name": "Outros",
+                    "source": 4709228965570453,
+                    "value_struct": null,
+                    "values": [
+                        {
+                            "name": "iPhone 11 Pro Max",
+                            "struct": null,
+                            "source": 4709228965570453,
+                            "id": "7741677"
+                        }
+                    ],
+                    "attribute_group_id": "OTHERS"
+                },
+                {
+                    "value_id": "7740540",
+                    "value_name": "Apple A13 Bionic",
+                    "value_struct": null,
+                    "values": [
+                        {
+                            "id": "7740540",
+                            "name": "Apple A13 Bionic",
+                            "struct": null,
+                            "source": 1
+                        }
+                    ],
+                    "attribute_group_id": "OTHERS",
+                    "attribute_group_name": "Outros",
+                    "id": "PROCESSOR_MODEL",
+                    "name": "Modelo do processador",
+                    "source": 1
+                },
+                {
+                    "id": "WEIGHT",
+                    "source": 1,
+                    "name": "Peso",
+                    "value_id": "2713650",
+                    "value_name": "226 g",
+                    "value_struct": {
+                        "number": 226,
+                        "unit": "g"
+                    },
+                    "values": [
+                        {
+                            "struct": {
+                                "number": 226,
+                                "unit": "g"
+                            },
+                            "source": 1,
+                            "id": "2713650",
+                            "name": "226 g"
+                        }
+                    ],
+                    "attribute_group_id": "OTHERS",
+                    "attribute_group_name": "Outros"
+                }
+            ],
+            "differential_pricing": {
+                "id": 33580182
+            },
+            "original_price": null,
+            "category_id": "MLB1055",
+            "official_store_id": null,
+            "domain_id": "MLB-CELLPHONES",
+            "catalog_product_id": "MLB15150976",
+            "tags": [
+                "good_quality_picture",
+                "good_quality_thumbnail",
+                "brand_verified",
+                "immediate_payment",
+                "cart_eligible",
+                "shipping_guaranteed"
+            ],
+            "catalog_listing": true,
+            "order_backend": 4
+        }
+    ],
+    "secondary_results": [],
+    "related_results": [],
+    "sort": {
+        "id": "relevance",
+        "name": "Mais relevantes"
+    },
+    "available_sorts": [
+        {
+            "id": "price_asc",
+            "name": "Menor preço"
+        },
+        {
+            "id": "price_desc",
+            "name": "Maior preço"
+        }
+    ],
+    "filters": [
+        {
+            "id": "category",
+            "name": "Categorias",
+            "type": "text",
+            "values": [
+                {
+                    "id": "MLB1055",
+                    "name": "Celulares e Smartphones",
+                    "path_from_root": [
+                        {
+                            "id": "MLB1051",
+                            "name": "Celulares e Telefones"
+                        },
+                        {
+                            "id": "MLB1055",
+                            "name": "Celulares e Smartphones"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "MAIN_REAR_CAMERA_RESOLUTION",
+            "name": "Resolução da câmera traseira principal",
+            "type": "range",
+            "values": [
+                {
+                    "id": "[12-12]",
+                    "name": "12 "
+                }
+            ]
+        },
+        {
+            "id": "BRAND",
+            "name": "Marca",
+            "type": "STRING",
+            "values": [
+                {
+                    "id": "9344",
+                    "name": "Apple"
+                }
+            ]
+        },
+        {
+            "id": "LINE",
+            "name": "Linha",
+            "type": "STRING",
+            "values": [
+                {
+                    "id": "58993",
+                    "name": "iPhone"
+                }
+            ]
+        }
+    ],
+    "available_filters": [
+        {
+            "id": "state",
+            "name": "Localização",
+            "type": "text",
+            "values": [
+                {
+                    "id": "TUxCUFNBT085N2E4",
+                    "name": "São Paulo",
+                    "results": 191
+                },
+                {
+                    "id": "TUxCUE1JTlMxNTAyZA",
+                    "name": "Minas Gerais",
+                    "results": 63
+                },
+                {
+                    "id": "TUxCUFJJT08xODM5Zg",
+                    "name": "Rio de Janeiro",
+                    "results": 54
+                },
+                {
+                    "id": "TUxCUEdPSVMxNzVmMw",
+                    "name": "Goiás",
+                    "results": 25
+                },
+                {
+                    "id": "TUxCUERJU0wxMWJhYg",
+                    "name": "Distrito Federal",
+                    "results": 18
+                },
+                {
+                    "id": "TUxCUFBBUkExODBlZA",
+                    "name": "Paraná",
+                    "results": 18
+                },
+                {
+                    "id": "TUxCUFNBTkE5Nzc4",
+                    "name": "Santa Catarina",
+                    "results": 16
+                },
+                {
+                    "id": "TUxCUEJBSEFlYmEx",
+                    "name": "Bahia",
+                    "results": 12
+                },
+                {
+                    "id": "TUxCUFBFUk8xZmZj",
+                    "name": "Pernambuco",
+                    "results": 11
+                },
+                {
+                    "id": "TUxCUFJJT0xkYzM0",
+                    "name": "Rio Grande do Sul",
+                    "results": 10
+                },
+                {
+                    "id": "TUxCUENFQUExNzkyZQ",
+                    "name": "Ceará",
+                    "results": 9
+                },
+                {
+                    "id": "TUxCUE1BVEw4ZTc",
+                    "name": "Mato Grosso do Sul",
+                    "results": 6
+                },
+                {
+                    "id": "TUxCUEVTUE8xN2Y3NA",
+                    "name": "Espírito Santo",
+                    "results": 5
+                },
+                {
+                    "id": "TUxCUFJJT0VkMmNj",
+                    "name": "Rio Grande do Norte",
+                    "results": 4
+                },
+                {
+                    "id": "TUxCUE1BVE9jZDY0",
+                    "name": "Mato Grosso",
+                    "results": 3
+                },
+                {
+                    "id": "TUxCUEFNQVMxNzgwYQ",
+                    "name": "Amazonas",
+                    "results": 3
+                },
+                {
+                    "id": "TUxCUE1BUk81MWVi",
+                    "name": "Maranhão",
+                    "results": 2
+                },
+                {
+                    "id": "TUxCUEFMQVNmZjUw",
+                    "name": "Alagoas",
+                    "results": 2
+                },
+                {
+                    "id": "TUxCUEFNQUExNTZlNg",
+                    "name": "Amapá",
+                    "results": 2
+                },
+                {
+                    "id": "TUxCUFBBUkFiY2Uw",
+                    "name": "Pará",
+                    "results": 2
+                },
+                {
+                    "id": "TUxCUFJPTkExMmU4YQ",
+                    "name": "Rondônia",
+                    "results": 2
+                },
+                {
+                    "id": "TUxCUFRPQ1NjZDBm",
+                    "name": "Tocantins",
+                    "results": 2
+                },
+                {
+                    "id": "TUxCUEFDUkVkNTU",
+                    "name": "Acre",
+                    "results": 1
+                },
+                {
+                    "id": "TUxCUFBBUkE0M2I4",
+                    "name": "Paraíba",
+                    "results": 1
+                },
+                {
+                    "id": "TUxCUFBJQUk1NDVj",
+                    "name": "Piauí",
+                    "results": 1
+                },
+                {
+                    "id": "TUxCUFJPUkExODBiMQ",
+                    "name": "Roraima",
+                    "results": 1
+                }
+            ]
+        },
+        {
+            "id": "price",
+            "name": "Preço",
+            "type": "range",
+            "values": [
+                {
+                    "id": "*-6500.0",
+                    "name": "Até R$6.500",
+                    "results": 118
+                },
+                {
+                    "id": "6500.0-7500.0",
+                    "name": "R$6.500 a R$7.500",
+                    "results": 183
+                },
+                {
+                    "id": "7500.0-*",
+                    "name": "Mais de R$7.500",
+                    "results": 165
+                }
+            ]
+        },
+        {
+            "id": "accepts_mercadopago",
+            "name": "Filtro por MercadoPago",
+            "type": "boolean",
+            "values": [
+                {
+                    "id": "yes",
+                    "name": "Com MercadoPago",
+                    "results": 466
+                }
+            ]
+        },
+        {
+            "id": "installments",
+            "name": "Pagamento",
+            "type": "text",
+            "values": [
+                {
+                    "id": "no_interest",
+                    "name": "Sem juros",
+                    "results": 88
+                }
+            ]
+        },
+        {
+            "id": "shipping",
+            "name": "Tipo de envio",
+            "type": "text",
+            "values": [
+                {
+                    "id": "mercadoenvios",
+                    "name": "Mercado Envios",
+                    "results": 452
+                }
+            ]
+        },
+        {
+            "id": "power_seller",
+            "name": "Filtro MercadoLíderes",
+            "type": "boolean",
+            "values": [
+                {
+                    "id": "yes",
+                    "name": "Melhores vendedores",
+                    "results": 4
+                }
+            ]
+        },
+        {
+            "id": "since",
+            "name": "Filtro por data de início",
+            "type": "text",
+            "values": [
+                {
+                    "id": "today",
+                    "name": "Anunciados hoje",
+                    "results": 20
+                }
+            ]
+        },
+        {
+            "id": "until",
+            "name": "Filtro por data do fim",
+            "type": "text",
+            "values": [
+                {
+                    "id": "today",
+                    "name": "Termina hoje",
+                    "results": 3
+                }
+            ]
+        },
+        {
+            "id": "has_video",
+            "name": "Filtro por publicações com vídeo",
+            "type": "boolean",
+            "values": [
+                {
+                    "id": "yes",
+                    "name": "Publicações com vídeo",
+                    "results": 2
+                }
+            ]
+        },
+        {
+            "id": "has_pictures",
+            "name": "Filtro por publicação com imagens",
+            "type": "boolean",
+            "values": [
+                {
+                    "id": "yes",
+                    "name": "Com fotos",
+                    "results": 466
+                }
+            ]
+        },
+        {
+            "id": "shipping_cost",
+            "name": "Custo do frete",
+            "type": "text",
+            "values": [
+                {
+                    "id": "free",
+                    "name": "Gratis",
+                    "results": 263
+                }
+            ]
+        },
+        {
+            "id": "CARRIER",
+            "name": "Operadora",
+            "type": "STRING",
+            "values": [
+                {
+                    "id": "298335",
+                    "name": "Desbloqueado",
+                    "results": 456
+                },
+                {
+                    "id": "298334",
+                    "name": "TIM",
+                    "results": 4
+                },
+                {
+                    "id": "298332",
+                    "name": "Vivo",
+                    "results": 3
+                },
+                {
+                    "id": "298333",
+                    "name": "Claro",
+                    "results": 2
+                },
+                {
+                    "id": "298331",
+                    "name": "Oi",
+                    "results": 1
+                }
+            ]
+        },
+        {
+            "id": "INTERNAL_MEMORY",
+            "name": "Memória interna",
+            "type": "range",
+            "values": [
+                {
+                    "id": "(*-256GB)",
+                    "name": "Menos de 256 GB",
+                    "results": 185
+                },
+                {
+                    "id": "[256GB-512GB)",
+                    "name": "256 a 511 GB",
+                    "results": 230
+                },
+                {
+                    "id": "[512GB-*)",
+                    "name": "512 GB ou mais",
+                    "results": 51
+                }
+            ]
+        },
+        {
+            "id": "IS_DUAL_SIM",
+            "name": "Outras características",
+            "type": "boolean",
+            "values": [
+                {
+                    "id": "242085",
+                    "name": "É Dual SIM",
+                    "results": 35
+                }
+            ]
+        },
+        {
+            "id": "IS_WATER_RESISTANT",
+            "name": "Outras características",
+            "type": "boolean",
+            "values": [
+                {
+                    "id": "242085",
+                    "name": "É resistente à água",
+                    "results": 465
+                }
+            ]
+        },
+        {
+            "id": "ITEM_CONDITION",
+            "name": "Condição",
+            "type": "STRING",
+            "values": [
+                {
+                    "id": "2230581",
+                    "name": "Usado",
+                    "results": 393
+                },
+                {
+                    "id": "2230284",
+                    "name": "Novo",
+                    "results": 70
+                },
+                {
+                    "id": "2230582",
+                    "name": "Recondicionado",
+                    "results": 3
+                }
+            ]
+        },
+        {
+            "id": "MAIN_COLOR",
+            "name": "Cor principal",
+            "type": "list",
+            "values": [
+                {
+                    "id": "2450294",
+                    "name": "Cinza",
+                    "results": 172
+                },
+                {
+                    "id": "2450314",
+                    "name": "Verde",
+                    "results": 143
+                },
+                {
+                    "id": "2450289",
+                    "name": "Dourado",
+                    "results": 104
+                },
+                {
+                    "id": "2450295",
+                    "name": "Preto",
+                    "results": 4
+                },
+                {
+                    "id": "2450303",
+                    "name": "Prateado",
+                    "results": 3
+                },
+                {
+                    "id": "2450324",
+                    "name": "Verde-escuro",
+                    "results": 1
+                },
+                {
+                    "id": "2450308",
+                    "name": "Branco",
+                    "results": 1
+                },
+                {
+                    "id": "2450307",
+                    "name": "Vermelho",
+                    "results": 1
+                }
+            ]
+        },
+        {
+            "id": "MOBILE_NETWORK",
+            "name": "Rede",
+            "type": "STRING",
+            "values": [
+                {
+                    "id": "367876",
+                    "name": "4G/LTE",
+                    "results": 466
+                }
+            ]
+        },
+        {
+            "id": "MODEL",
+            "name": "Modelo",
+            "type": "STRING",
+            "values": [
+                {
+                    "id": "7741677",
+                    "name": "iPhone 11 Pro Max",
+                    "results": 453
+                },
+                {
+                    "id": "5414168",
+                    "name": "iPhone XS Max",
+                    "results": 2
+                },
+                {
+                    "id": "7741023",
+                    "name": "iPhone 11 Pro",
+                    "results": 1
+                },
+                {
+                    "id": "5414092",
+                    "name": "iPhone XS Dual SIM",
+                    "results": 1
+                },
+                {
+                    "id": "312154",
+                    "name": "iPhone SE",
+                    "results": 1
+                }
+            ]
+        },
+        {
+            "id": "OPERATING_SYSTEM_NAME",
+            "name": "Nome do sistema operacional",
+            "type": "STRING",
+            "values": [
+                {
+                    "id": "7404961",
+                    "name": "iOS",
+                    "results": 466
+                }
+            ]
+        },
+        {
+            "id": "RAM",
+            "name": "Memória RAM",
+            "type": "range",
+            "values": [
+                {
+                    "id": "(*-2GB]",
+                    "name": "2 GB ou menos",
+                    "results": 4
+                },
+                {
+                    "id": "[3GB-3GB]",
+                    "name": "3 GB",
+                    "results": 1
+                },
+                {
+                    "id": "[4GB-4GB]",
+                    "name": "4 GB",
+                    "results": 432
+                },
+                {
+                    "id": "[6GB-6GB]",
+                    "name": "6 GB",
+                    "results": 1
+                },
+                {
+                    "id": "[8GB-*)",
+                    "name": "8 GB ou mais",
+                    "results": 28
+                }
+            ]
+        },
+        {
+            "id": "WITH_FACIAL_RECOGNITION",
+            "name": "Outras características",
+            "type": "boolean",
+            "values": [
+                {
+                    "id": "242085",
+                    "name": "Com reconhecimento facial",
+                    "results": 463
+                }
+            ]
+        },
+        {
+            "id": "WITH_FAST_CHARGING",
+            "name": "Outras características",
+            "type": "boolean",
+            "values": [
+                {
+                    "id": "242085",
+                    "name": "Com carregamento rápido",
+                    "results": 465
+                }
+            ]
+        },
+        {
+            "id": "WITH_FINGERPRINT_READER",
+            "name": "Outras características",
+            "type": "boolean",
+            "values": [
+                {
+                    "id": "242085",
+                    "name": "Com leitor de impressão digital",
+                    "results": 4
+                }
+            ]
+        }
+    ]
+}

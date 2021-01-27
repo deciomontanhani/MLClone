@@ -3,7 +3,8 @@ import ProjectDescription
 let project = Project(name: "MLClone",
                       organizationName: "Décio Montanhani",
                       packages: [
-                        .package(url: "https://github.com/onevcat/Kingfisher.git", .upToNextMajor(from: "6.0.0"))
+                        .package(url: "https://github.com/onevcat/Kingfisher.git", .upToNextMajor(from: "6.0.0")),
+                        .package(url: "https://github.com/Quick/Quick.git", .upToNextMajor(from: "2.0.0"))
                       ],
                       targets: [
                         Target(name: "MLClone",
@@ -24,8 +25,10 @@ let project = Project(name: "MLClone",
                                bundleId: "br.com.deciomontanhani.MLCloneTests",
                                infoPlist: "MLCloneTests/Info.plist",
                                sources: ["MLCloneTests/Sources/**"],
-                               //  resources: ["MLCloneTests/Resources/**"],
+                               resources: ["MLCloneTests/Resources/**"],
                                dependencies: [
-                                .target(name: "MLClone")
+                                .target(name: "MLClone"),
+                                .package(product: "Quick"),
+                                .package(product: "Nimble")
                                ])
                       ])
