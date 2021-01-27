@@ -5,7 +5,7 @@ Search and see details from Mercado Livre
 
 An iOS App that you can search products and see details from Mercado Livre.
 
-![home](images/noname.png)
+![home](images/noname.gif)
 
 ## Requirements
 - Xcode 12
